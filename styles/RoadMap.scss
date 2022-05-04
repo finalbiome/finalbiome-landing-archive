@@ -1,0 +1,101 @@
+.road_map {
+  &__container {
+
+    @media (max-width: 1200px) {
+      .road_map_phases--desktop{
+        display: none;
+        width: 0;
+      }
+      .road_map_phases--mobile{
+        display: block;
+        // width: 0;
+        margin: auto;
+      }
+      .road_map__container__images{
+        flex-direction: column;
+        align-items: center;
+      }
+      .road_map__container__road_map{
+        display: flex;
+        flex-direction: row;
+      }
+      .road_map__container__images{
+        margin: 0;
+        position: relative;
+        left: -20%;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+    .road_map_phases--mobile{
+      display: none;
+      width: 0;
+    }
+    .road_map_phases--desktop{
+      display: block;
+        // width: 0;
+        margin: auto;
+    }
+    
+  }
+    &__header {
+      padding-left: 4%;
+      margin-top: 0;
+      position: relative;
+      top: -12vh;
+      margin-bottom: 0vh;
+      position: relative;
+      // left: 35%;
+      font-size: 20vh;
+      font-family: "Museo";
+      font-style: normal;
+      font-weight: 700;
+      background: linear-gradient(92.05deg, #2dea40 3.12%, #bfff37 81.34%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    width: 100%;
+    background-color: #1b1b1b;
+    img {
+      opacity: 50%;
+    }
+    // &__road_map {
+    //   // margin-top: 20vh;
+    //   // margin-bottom: 10vh;
+    // }
+    &__images {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-left: 6%;
+      margin-bottom: -3%;
+    }
+    .__plant1 {
+      background: url(../assets/plant1.png);
+      width: 169px;
+      opacity: 0.6;
+      height: 169px;
+    }
+    .__plant2 {
+      background: url(../assets/plant2.png);
+      width: 280px;
+      opacity: 0.6;
+      height: 286px;
+    }
+    .__plant3 {
+      background: url(../assets/plant3.png);
+      width: 329px;
+      height: 390px;
+      opacity: 0.6;
+
+    }
+    .grass {
+      width: 100%;
+      height: 323px;
+      background: url(../assets/grass.png);
+      mix-blend-mode: multiply;
+      // opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.white_paper {
+  &__container {
+        background: url(../assets/rock.png);
+        background-position: bottom right;
+        background-size: 1200px 410px;
+        background-repeat: no-repeat;
+      
+      @media (max-width: 1200px) {
+        &__items {
+            display: flex;
+            flex-direction: column;
+          }
+          &__buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+      }
+    .download_button {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      color: #fff;
+      width: 15em;
+      height: 30vh;
+      h5 {
+          margin: 0 3em;
+        font-family: Museo;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+      p{
+        font-family: Museo;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+      }
+    }
+    &__items {
+      display: flex;
+    }
+    &__buttons {
+      display: flex;
+      align-items: center;
+    }
+    &__list {
+      margin-left: 10%;
+      .item_list__title {
+        font-size: 4vh;
+      }
+      width: 50%;
+      span {
+        line-height: 2.5vh;
+        font-weight: 600;
+      }
+    }
+    min-height: 79vh;
+    background-color: #0b0b0b;
+    h2 {
+      text-align: end;
+    //   padding: 0% 4%;
+      margin-top: 0;
+      position: relative;
+      top: -12vh;
+      margin-bottom: 0vh;
+      position: relative;
+      // left: 35%;
+      font-size: 20vh;
+      font-family: "Museo";
+      font-style: normal;
+      font-weight: 700;
+      background: linear-gradient(92.05deg, #2dea40 3.12%, #bfff37 81.34%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}

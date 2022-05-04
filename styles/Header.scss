@@ -1,0 +1,108 @@
+.header {
+  div {
+    max-width: 100%;
+  }
+  &_container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .topbar_container {
+      display: flex;
+      align-items: center;
+      margin-top: 2vh;
+      margin: 3vh 7%;
+      justify-content: space-between;
+      height: 10vh;
+      &__buttons {
+        button {
+          font-family: "Museo";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2.1vh;
+          height: 3em;
+          color: #ffffff;
+          background: transparent;
+          margin: 1em 1em;
+          border: 0;
+          // padding: 0;
+        }
+        button:hover{
+          color: #2dea40;
+        }
+      }
+    }
+    &__image {
+      z-index: 0;
+      position: absolute;
+      opacity: 40%;
+      min-width: 80em;
+      // right: 0 !important;
+      // left: 20% !important;
+      padding-left: 21%;
+      top: 16vh;
+    }
+    @media (max-width: 1200px) {
+      &__title{
+        width: 100%;
+      }
+    }
+    &__title {
+      height: 53vh;
+      // margin-bottom: 4em;
+      padding-bottom: 2em;
+      display: flex;
+      flex-direction: column;
+      font-family: "Museo";
+      font-style: normal;
+      position: relative;
+      // top: 18%;
+      // left: 8em;
+      padding: 4em 7%;
+      // width: 65em;
+      z-index: 3;
+      .head {
+        font-weight: 600;
+        font-size: 7vh;
+        line-height: 0.5em;
+        background: linear-gradient(92.05deg, #2dea40 3.12%, #bfff37 81.34%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .hyphen {
+        font-weight: 600;
+        font-size: 7vh;
+        color: #ffffff;
+        line-height: 100%;
+        margin: 0 0.5em;
+      }
+      .body {
+        font-family: "Museo";
+        color: #ffffff;
+        flex: none;
+        font-weight: 300;
+        order: 0;
+        font-size: 6.5vh;
+        flex-grow: 0;
+
+        margin-bottom: 1em;
+        line-height: 1em;
+      }
+      .desc {
+        font-family: "Courier New", Courier, monospace;
+        color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-weight: 600;
+        width: 22em;
+        font-size: 3vh;
+      }
+    }
+    // &__background_image {
+    //   // margin-top: 23vh;
+    //   position: relative;
+    //   bottom: -20%;
+    // }
+  }
+}

@@ -1,0 +1,32 @@
+.contacts_container {
+  h2 {
+    padding-left: 4%;
+    margin-top: 0;
+    position: relative;
+    top: -12vh;
+    margin-bottom: 0vh;
+    position: relative;
+    // left: 35%;
+    font-size: 20vh;
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+  }
+  &__buttons {
+    margin: 0 4%;
+  }
+  a{
+      margin: 1em;
+  }
+  p {
+    margin: 5% 5%;
+    color: #4f4f4f;
+    font-family: Courier New;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
