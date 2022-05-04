@@ -22,11 +22,11 @@ function WhitePaper() {
             },
           ]}
         />
-      <div className="white_paper__container__buttons">
-        <DownloadButtons title="English" text="View PDF" />
-        <DownloadButtons title="Chines" text="View PDF" />
-        <DownloadButtons title="Español" text="View PDF" />
-      </div>
+        <div className="white_paper__container__buttons">
+          <DownloadButtons title="English" text="View PDF" />
+          <DownloadButtons title="Chines" text="View PDF" />
+          <DownloadButtons title="Español" text="View PDF" />
+        </div>
       </div>
     </div>
   );

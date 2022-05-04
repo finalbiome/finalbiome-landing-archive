@@ -1,3 +1,5 @@
+import React from "react";
+
 function TopBar() {
   return (
     <div className="topbar_container">
@@ -23,4 +25,4 @@ function TopBar() {
   );
 }
 
-export default TopBar
+export default TopBar;

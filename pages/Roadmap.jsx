@@ -7,7 +7,7 @@ function RoadMap() {
     <div className="road_map__container">
       <h2 className="road_map__container__header">Roadmap</h2>
       <div className="road_map__container__road_map">
-        <RoadMapPhasesMobile/>
+        <RoadMapPhasesMobile />
         <div className="road_map__container__images">
           <div className="__plant1" />
           <div className="__plant2" />

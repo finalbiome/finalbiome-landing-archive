@@ -17,4 +17,4 @@ function finalbiomeSvg() {
   );
 }
 
-export default finalbiomeSvg
+export default finalbiomeSvg;

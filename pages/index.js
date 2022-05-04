@@ -1,3 +1,6 @@
+/* eslint-disable max-len */
+import React from "react";
+
 import Head from "next/head";
 // import Image from "next/image";
 // import ItemList from "../components/ItemList/ItemList";

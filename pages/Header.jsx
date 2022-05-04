@@ -4,7 +4,7 @@ import TopBar from "../components/TopBar";
 function Header() {
   return (
     <div className="header_container">
-      <TopBar/>
+      <TopBar />
       <div className="header_container__title">
         <div>
           <span className="head">finalbiome</span>
@@ -16,8 +16,8 @@ function Header() {
         <span className="desc">
           Deploying a game on the blockchain has never been so easy
         </span>
-      </div >
-      <div className="header_container__image"/>
+      </div>
+      <div className="header_container__image" />
       <svg
         width="100%"
         height="264"
