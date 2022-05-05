@@ -2,7 +2,7 @@ import React from "react";
 import DownloadButtons from "../components/downloadButton";
 import ItemList from "../components/ItemList";
 
-import randomPdf from "../public/randomPdf.pdf";
+import randomPdf from "../assets/randomPdf.pdf";
 
 function WhitePaper() {
   return (

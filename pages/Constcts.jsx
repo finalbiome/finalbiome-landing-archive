@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
-function Contacts({ ref }) {
+function Contacts() {
   return (
-    <div className="contacts_container" ref={ref}>
+    <div className="contacts_container">
       <h2>Contacts</h2>
       <div className="contacts_container__buttons">
         {/* <Link href="/" passHref>
