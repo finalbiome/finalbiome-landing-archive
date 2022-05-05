@@ -2,10 +2,7 @@ import React from "react";
 import DownloadButtons from "../components/downloadButton";
 import ItemList from "../components/ItemList";
 
-import randomPdf from "../public/randomPdf.pdf";
-
 function WhitePaper() {
-  console.log(randomPdf);
   return (
     <div className="white_paper__container">
       <div className="white_paper__container__header">Whitepaper</div>
