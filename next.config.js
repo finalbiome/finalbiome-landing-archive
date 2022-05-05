@@ -11,9 +11,10 @@ const nextConfig = {
       use: [
         {
           loader: "file-loader",
-          options: {
-            name: "[name].[ext]",
-          },
+          // options: {
+          //   name: "[path][name].[ext]",
+          //   outputPath: "/public",
+          // },
         },
       ],
     });

@@ -2,9 +2,10 @@ import React from "react";
 import DownloadButtons from "../components/downloadButton";
 import ItemList from "../components/ItemList";
 
-import randomPdf from "../assets/randomPdf.pdf";
+import randomPdf from "../public/randomPdf.pdf";
 
 function WhitePaper() {
+  console.log(randomPdf);
   return (
     <div className="white_paper__container">
       <div className="white_paper__container__header">Whitepaper</div>
@@ -25,9 +26,21 @@ function WhitePaper() {
           ]}
         />
         <div className="white_paper__container__buttons">
-          <DownloadButtons href={randomPdf} title="English" text="View PDF" />
-          <DownloadButtons href={randomPdf} title="Chines" text="View PDF" />
-          <DownloadButtons href={randomPdf} title="Español" text="View PDF" />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="English"
+            text="View PDF"
+          />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="Chines"
+            text="View PDF"
+          />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="Español"
+            text="View PDF"
+          />
         </div>
       </div>
     </div>
