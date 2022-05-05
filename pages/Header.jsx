@@ -1,10 +1,10 @@
 import React from "react";
 import TopBar from "../components/TopBar";
 
-function Header() {
+function Header({ links }) {
   return (
     <div className="header_container">
-      <TopBar />
+      <TopBar links={links} />
       <div className="header_container__title">
         <div>
           <span className="head">finalbiome</span>

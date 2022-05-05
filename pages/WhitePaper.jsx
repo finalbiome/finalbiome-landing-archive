@@ -5,7 +5,7 @@ import ItemList from "../components/ItemList";
 function WhitePaper() {
   return (
     <div className="white_paper__container">
-      <h2>Whitepaper</h2>
+      <div className="white_paper__container__header">Whitepaper</div>
       <div className="white_paper__container__items">
         <ItemList
           className="white_paper__container__list"
@@ -23,9 +23,21 @@ function WhitePaper() {
           ]}
         />
         <div className="white_paper__container__buttons">
-          <DownloadButtons title="English" text="View PDF" />
-          <DownloadButtons title="Chines" text="View PDF" />
-          <DownloadButtons title="Español" text="View PDF" />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="English"
+            text="View PDF"
+          />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="Chines"
+            text="View PDF"
+          />
+          <DownloadButtons
+            href="/randomPdf.pdf"
+            title="Español"
+            text="View PDF"
+          />
         </div>
       </div>
     </div>
