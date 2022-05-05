@@ -7,7 +7,7 @@ function Solution() {
       <div className="solution_container__text">
         <div className="solution_container__image" />
         <div>
-          <h2 className="solution_container__header">Solution</h2>
+          <div className="solution_container__header">Solution</div>
           <ItemList
             className="solution_container__list"
             title="FinalBiome is a decentralised video game deployment platform that, in addition to the general benefits of decentralised applications, such as:"

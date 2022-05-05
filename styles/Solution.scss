@@ -7,10 +7,9 @@
     max-width: 100%;
   }
   &__header {
-    margin-top: 0;
+    margin: 0 2%;
     position: relative;
     top: -12vh;
-    margin-bottom: 0vh;
     position: relative;
     // left: 35%;
     font-size: 20vh;
@@ -24,7 +23,7 @@
   }
   &__list {
     width: 80%;
-    // margin-left: 37%;
+    margin: 0 10%;
   }
   &__text {
     display: flex;
@@ -42,6 +41,7 @@
     margin: 5vh;
     width: 55%;
     height: 720px;
+    min-width: 577px;
     background: url(../assets/three.png);
     background-repeat: no-repeat;
   }

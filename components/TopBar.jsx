@@ -1,6 +1,6 @@
 import React from "react";
 
-function TopBar() {
+function TopBar({ links = [] }) {
   return (
     <div className="topbar_container">
       <svg
@@ -16,10 +16,11 @@ function TopBar() {
         />
       </svg>
       <div className="topbar_container__buttons">
-        <button type="button">Technology</button>
-        <button type="button">Solution</button>
-        <button type="button">Roadmap</button>
-        <button type="button">Whitepaper</button>
+        {links.map((element) => (
+          <button onClick={element.link} type="button">
+            {element.name}
+          </button>
+        ))}
       </div>
     </div>
   );

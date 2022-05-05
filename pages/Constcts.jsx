@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
-function Contacts() {
+function Contacts({ ref }) {
   return (
-    <div className="contacts_container">
+    <div className="contacts_container" ref={ref}>
       <h2>Contacts</h2>
       <div className="contacts_container__buttons">
-        <Link href="/" passHref>
+        {/* <Link href="/" passHref>
           <svg
             width="60"
             height="60"
@@ -21,9 +21,9 @@ function Contacts() {
               fill="white"
             />
           </svg>
-        </Link>
+        </Link> */}
 
-        <Link href="/" passHref>
+        <Link href="https://twitter.com/FinalBiome" passHref>
           <svg
             width="60"
             height="60"
@@ -38,7 +38,7 @@ function Contacts() {
           </svg>
         </Link>
 
-        <Link href="/" passHref>
+        <Link href="https://www.linkedin.com/company/finalbiome" passHref>
           <svg
             width="60"
             height="60"
@@ -53,7 +53,7 @@ function Contacts() {
           </svg>
         </Link>
 
-        <Link href="/" passHref>
+        {/* <Link href="/" passHref>
           <svg
             width="60"
             height="60"
@@ -66,9 +66,9 @@ function Contacts() {
               fill="white"
             />
           </svg>
-        </Link>
+        </Link> */}
 
-        <Link href="/" passHref>
+        <Link href="http://finalbiome.medium.com/" passHref>
           <svg
             width="60"
             height="60"

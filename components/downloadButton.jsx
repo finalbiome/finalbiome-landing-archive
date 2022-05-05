@@ -2,9 +2,15 @@
 import React from "react";
 import Link from "next/link";
 
-function DownloadButtons({ title, text }) {
+function DownloadButtons({ title, text, href = "/" }) {
   return (
-    <Link href="/" rel="noreferrer" className="download_button" passHref>
+    <Link
+      href={href}
+      // download
+      rel="noreferrer"
+      className="download_button"
+      passHref
+    >
       <div>
         <svg
           width="41"

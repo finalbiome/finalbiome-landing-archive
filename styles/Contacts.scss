@@ -15,6 +15,12 @@
   }
   &__buttons {
     margin: 0 4%;
+    svg{
+      margin: 0 0.5em;
+    }
+    svg:hover{
+      cursor: pointer;
+    }
   }
   a{
       margin: 1em;
